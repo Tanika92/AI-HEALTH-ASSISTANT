@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Health Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🩺 AI Health Assistant</h1>
+        <p>Describe your symptoms below.</p>
+        
+        <input type="text" id="symptoms" placeholder="Enter your symptoms here">
+        <button onclick="getAdvice()">Get Advice</button>
+        
+        <div id="response"></div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
