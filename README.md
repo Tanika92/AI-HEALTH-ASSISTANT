@@ -80,7 +80,7 @@ Response:
 ---
 
 ## 🛠 Requirements
-See [requirements (1).txt](requirements (1).txt).
+See [requirements.txt](requirements.txt).
 
 ---
 
